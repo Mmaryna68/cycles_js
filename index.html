@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <form onsubmit="handleSubmit(event)">
+      <!-- ... -->
+    </form>
+  </head>
+  <body>
+    <h1>Welcome to my page!</h1>
+
+    <ul>
+      <li><a class="button" href="#">Open Modal 1</a></li>
+      <li><a class="button" href="#">Open Modal 2</a></li>
+      <li><a class="button" href="#">Open Modal 3</a></li>
+    </ul>
+
+    <div class="modal" id="modal1">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This is the first modal window.</p>
+        <p>Please enter your name:</p>
+        <input type="text" id="name-input" />
+        <div class="submit-button">
+          <a class="button" id="submit-button" href="#">Submit</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modal2">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This is the second modal window.</p>
+        <p>Please enter your email:</p>
+        <input type="email" name="email-input" />
+        <div class="submit-button">
+          <a class="button" href="#">Submit</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="modal3">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This is the third modal window.</p>
+        <p>Please enter your phone number:</p>
+        <input type="tel" name="phone" />
+        <div class="submit-button">
+          <a class="button" href="#">Submit</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
