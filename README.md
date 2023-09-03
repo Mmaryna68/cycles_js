@@ -54,7 +54,6 @@ styles/: A directory containing the CSS styles, including modal.css for modal wi
 
 script.js: The JavaScript file responsible for handling modal window functionality and form submissions.
 
-images/: An optional directory for storing any project-related images.
 
 ## Contributions
 Contributions to this project are welcome! If you would like to contribute, please follow these steps:
